@@ -1,6 +1,7 @@
 import React from "react";
+import Button from "./Button";
 
-function ProfileCard({ name, imageUrl, role }) {
+function ProfileCard({ name, imageUrl, role, children }) {
   return (
     <div
       style={{
@@ -25,6 +26,9 @@ function ProfileCard({ name, imageUrl, role }) {
 
       <h2>{name}</h2>
       <p>{role}</p>
+
+         {children}
+
     </div>
   );
 }
