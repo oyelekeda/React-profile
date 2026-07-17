@@ -64,7 +64,7 @@ function App() {
     text="Follow"
     width="100px"
     height="40px"
-    backgroundColor="violent"
+    backgroundColor="violet"
   />
 </ProfileCard>
 
@@ -77,7 +77,7 @@ function App() {
     text="Follow"
     width="100px"
     height="40px"
-    backgroundColor="lightbrown"
+    backgroundColor="tan"
   />
 </ProfileCard>
 
