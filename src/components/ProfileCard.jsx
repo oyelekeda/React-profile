@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Counter from "./Counter"
 
 function ProfileCard({ name, imageUrl, role, children }) {
   return (
@@ -28,6 +29,9 @@ function ProfileCard({ name, imageUrl, role, children }) {
       <p>{role}</p>
 
          {children}
+
+
+      
 
     </div>
   );
