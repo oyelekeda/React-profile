@@ -3,6 +3,9 @@ import ProfileCard from "./components/ProfileCard";
 import Button from "./components/Button";
 import Counter from "./components/Counter";
 import LikeButton from "./components/LikeButton";
+import AgeChecker from "./components/AgeChecker";
+import LoginStatus from "./components/LoginStatus";
+import OnlineStatus from "./components/OnlineStatus";
 
 function App() {
   return (
@@ -148,6 +151,10 @@ function App() {
       <Counter />
 
       <LikeButton/>
+
+      <AgeChecker/>
+      <LoginStatus/>
+      <OnlineStatus/>
     </div>
   );
 }
